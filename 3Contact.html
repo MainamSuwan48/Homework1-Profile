@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      form {
+        border: solid 1px black;
+        padding: 20px;
+        width: 600px;
+        border-radius: 15px;
+      }
+
+    label, textarea, input, select{
+        margin-bottom: 10px;
+    }
+
+    select, .text{
+        width: 65%;
+    }
+    </style>
+  </head>
+  <body>
+    <a href="./index.html">Home|</a>
+    <a href="./1Education.html">Education|</a>
+    <a href="./2Work.html">Work Experience|</a>
+    <a href="./3Contact.html">Contact Me|</a>
+    <hr />
+
+    <h1>Contact Me</h1>
+    <form action="">
+      <p>Enter your info.</p>
+      <label for="yourname">Your Name:</label>
+      <br>
+      <input type="text" class="text" placeholder="Your name" id="yourname" name="name"/>
+      <br>
+
+      <label for="yourname">Email:</label>
+      <br>
+      <input type="email" class="text" placeholder="Email Address" id="emailad" name="email"/>
+      <br>
+
+      <label>Gender</label>
+      <br />
+      <select>
+        <option>female</option>
+        <option>male</option>
+      </select>
+      <br>
+
+      <label>Message</label><br />
+      <textarea name="" id="" cols="51%" rows="10"></textarea>
+      <br />
+      
+      <input type="submit">
+      <input type="reset">
+      
+    </form>
+  </body>
+</html>
